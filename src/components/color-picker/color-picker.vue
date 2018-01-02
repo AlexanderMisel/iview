@@ -364,6 +364,7 @@
             },
             handleSelectColor (color) {
                 this.val = _colorChange(color);
+                this.handleSuccess();
             }
         }
     };
